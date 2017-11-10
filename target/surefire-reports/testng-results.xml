@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63149" started-at="2017-11-09T05:32:33Z" finished-at="2017-11-09T05:33:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="63149" started-at="2017-11-09T05:32:33Z" finished-at="2017-11-09T05:33:36Z">
+      <class name="scenarios.Activity1Splash">
+        <test-method status="PASS" signature="initContext()[pri:0, instance:scenarios.Activity1Splash@90f6bfd]" name="initContext" is-config="true" duration-ms="58809" started-at="2017-11-09T12:32:33Z" finished-at="2017-11-09T12:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initContext -->
+        <test-method status="PASS" signature="onTestThisPage()[pri:0, instance:scenarios.Activity1Splash@90f6bfd]" name="onTestThisPage" duration-ms="4276" started-at="2017-11-09T12:33:32Z" finished-at="2017-11-09T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestThisPage -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:scenarios.Activity1Splash@90f6bfd]" name="closeApp" is-config="true" duration-ms="0" started-at="2017-11-09T12:33:36Z" finished-at="2017-11-09T12:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scenarios.Activity1Splash -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
