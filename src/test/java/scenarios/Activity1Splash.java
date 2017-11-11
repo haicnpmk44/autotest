@@ -43,7 +43,10 @@ public class Activity1Splash extends BaseApp {
             assertEquals(true, false);
         }catch(Exception e){
             System.out.println(e.getMessage());
-            throw e;
+            String url = "https://i-thethao.vnecdn.net/2017/11/11/1-2728-1510370832.jpg, " +
+            "https://i-thethao.vnecdn.net/2017/11/11/Untitled-5119-1510352059.jpg";
+            throw new Exception("Error auto test: " + url
+                                + "\n" + e);
         }
         
     }
