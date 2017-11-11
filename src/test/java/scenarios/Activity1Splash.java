@@ -20,11 +20,11 @@ public class Activity1Splash extends BaseApp {
 	private static String CLASSNAME_TEXTVIEW = "android.widget.TextView";
 	
 
-    @BeforeClass
-    public void initContext() throws MalformedURLException {
-    	super.setActivity(APP_ACTIVITY);
-    	super.initContext();
-    }
+//    @BeforeClass
+//    public void initContext() throws MalformedURLException {
+//    	super.setActivity(APP_ACTIVITY);
+//    	super.initContext();
+//    }
     
     //TC1: Open Homepage
     @Test (priority = 1)
@@ -116,11 +116,11 @@ public class Activity1Splash extends BaseApp {
 //    }
 
      
-    
-    @AfterClass
-    public void closeApp() throws MalformedURLException{
-        super.closeApp();
-    }
+
+//    @AfterClass
+//    public void closeApp() throws MalformedURLException{
+//        super.closeApp();
+//    }
     
 
 }
