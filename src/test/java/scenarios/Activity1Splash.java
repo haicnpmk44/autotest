@@ -38,16 +38,24 @@ public class Activity1Splash extends BaseApp {
 	@Test (priority = 2)
 	public void onTestTC2() throws InterruptedException{
 
-		System.out.println("TC2: done");
+		System.out.println("TC2: failed");
 
+		try {
+			assertEquals(true, false);
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+			throw e;
+		}
 	}
 
 	//TC1: Open Homepage
 	@Test (priority = 3)
 	public void onTestTC3() throws InterruptedException{
-		System.out.println("TC3: done");
+		System.out.println("TC3: failed");
+
 
 		//testFull();
+		assertEquals(true, false);
 	}
     
 //    public static void testFull(){
